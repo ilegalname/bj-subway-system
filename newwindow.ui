@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>newwindow</class>
+ <widget class="QWidget" name="newwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>站点名称</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>站点所在线路</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>站点经度</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>相邻站点1</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit_5"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="lineEdit_6"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>1号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10号线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>13号线</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>站点纬度</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="lineEdit_7"/>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="comboBox_2"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>与站点1的距离</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="lineEdit_4"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="comboBox_3"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>相邻站点2</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="lineEdit_2"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>与站点2的距离</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>添加新站点</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
